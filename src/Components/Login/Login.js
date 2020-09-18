@@ -149,8 +149,6 @@ const Login = () => {
 
     return (
         <Container  className="login-container">
-            <h2>Welcome to, {user.name}</h2>
-            <h5>It is your Email : {user.email}</h5>
             <Card className="login-card">
                 <Form onSubmit={handleSubmit} className="login-from">
                     {ifNewUser && <Form.Group controlId="formBasicPassword">
