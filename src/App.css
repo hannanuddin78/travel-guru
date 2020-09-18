@@ -18,6 +18,9 @@
   background-repeat:no-repeat;
 
 }
+.place-detailsAll{
+  padding-bottom: 50px;
+}
 .place-card {
   width:270px;
   height: 416px;

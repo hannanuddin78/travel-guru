@@ -14,7 +14,7 @@ const TravelPlace = () => {
     }, [placeId]);
     
     return (
-        <div>
+        <div className="place-detailsAll">
             <Container>
                 <Row>
                 <Col md={3} className="see-place">
